@@ -40,7 +40,7 @@ const About = () => {
         <div className="w-[350px]">
           <img
             className="rounded"
-            src="/public/aa-removebg-preview.png"
+            src="aa-removebg-preview.png"
             alt=""
           />
         </div>

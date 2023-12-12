@@ -19,7 +19,7 @@ const Projects = () => {
           className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
-            src="/public/3-devices-white.png"
+            src="3-devices-white.png"
             alt="card-image"
             className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
@@ -69,7 +69,7 @@ const Projects = () => {
           className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
-            src="/public/tripify.png"
+            src="tripify.png"
             alt="card-image"
             className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
@@ -117,7 +117,7 @@ const Projects = () => {
           className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
-            src="/public/gadger.png"
+            src="gadger.png"
             alt="card-image"
             className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"

@@ -1,6 +1,28 @@
-import { Textarea } from "@material-tailwind/react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ynmht55",
+        "template_huw5nud",
+        form.current,
+        "Xy9Ly3iMlL0H1stj8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div id="contact" className="mt-20 mb-6">
       <h1 className="text-center font-bold text-4xl mb-4">Get In Touch</h1>
@@ -50,29 +72,43 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+
+          <form
+            className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
+            ref={form}
+            onSubmit={sendEmail}
+          >
             <h1 className="text-2xl font-bold">Message Me Here</h1>
+
             <label className="block">
               <span className="mb-1">Your name</span>
               <input
                 type="text"
+                name="user_name"
                 placeholder="Name"
                 className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri dark:bg-gray-800"
               />
             </label>
+
             <label className="block">
               <span className="mb-1">Email address</span>
               <input
+                required
                 type="email"
+                name="user_email"
                 placeholder="email"
                 className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri dark:bg-gray-800"
               />
             </label>
-            <div className="w-96">
-              <h1>Message</h1>
-              <Textarea className="border-4" placeholder="Write Your Query" />
-            </div>
-            <input  className="bg-[#f8024d] text-[16px] block w-full text-center rounded-lg py-3 text-white px-2" type="submit" value="Seen Message" />
+
+            <label>Message</label>
+            <textarea placeholder="Write Your Query" name="message" />
+
+            <input
+              className="bg-[#f8024d] text-[16px] block w-full text-center rounded-lg py-3 text-white px-2 cursor-pointer"
+              type="submit"
+              value="Send"
+            />
           </form>
         </div>
       </section>

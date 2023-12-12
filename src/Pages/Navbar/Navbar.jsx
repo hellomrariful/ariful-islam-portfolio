@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center font-semibold whitespace-nowrap dark:text-white md:text-4xl text-2xl">Ariful <span className=' text-[#f8024d]'>Islam</span></span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
