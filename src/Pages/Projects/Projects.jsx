@@ -12,21 +12,21 @@ const Projects = () => {
         Projects I Worked On
       </h1>
 
-      <Card className="w-full flex-row rounded-lg bg-slate-200 border-4 border-red-500">
+      <Card className="w-full md:flex-row rounded-lg bg-slate-200 border-4 border-red-500">
         <CardHeader
           shadow={false}
           floated={false}
-          className="m-0 w-2/5 shrink-0 rounded-r-none"
+          className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
             src="/public/3-devices-white.png"
             alt="card-image"
-            className="h-full w-full rounded-l-lg
+            className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
           />
         </CardHeader>
         <CardBody className="py-10 px-10">
-          <Typography variant="h4" color="blue-gray" className="mb-2">
+          <Typography variant="h4" color="blue-gray" className="mb-2 text-2xl">
             📰 Anolipi | A Online News Portal
           </Typography>
           <Typography color="gray" className="mb-3 font-normal">
@@ -62,16 +62,16 @@ const Projects = () => {
         </CardBody>
       </Card>
 
-      <Card className="w-full flex-row rounded-lg bg-slate-200 border-4 border-red-500 my-10">
+      <Card className="w-full md:flex-row rounded-lg bg-slate-200 border-4 border-red-500 my-10">
         <CardHeader
           shadow={false}
           floated={false}
-          className="m-0 w-2/5 shrink-0 rounded-r-none"
+          className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
             src="/public/tripify.png"
             alt="card-image"
-            className="h-full w-full rounded-l-lg
+            className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
           />
         </CardHeader>
@@ -110,16 +110,16 @@ const Projects = () => {
         </CardBody>
       </Card>
 
-      <Card className="w-full flex-row rounded-lg bg-slate-200 border-4 border-red-500">
+      <Card className="w-full md:flex-row rounded-lg bg-slate-200 border-4 border-red-500">
         <CardHeader
           shadow={false}
           floated={false}
-          className="m-0 w-2/5 shrink-0 rounded-r-none"
+          className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
             src="/public/gadger.png"
             alt="card-image"
-            className="h-full w-full rounded-l-lg
+            className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
           />
         </CardHeader>
@@ -159,6 +159,14 @@ const Projects = () => {
           </div>
         </CardBody>
       </Card>
+      <div className="text-center mt-10">
+        <a
+          className="bg-[#f8024d] text-white rounded py-4 px-4 inline-block"
+          href="https://github.com/hellomrariful"
+        >
+          More Projects On Github
+        </a>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
-import { Button } from "@material-tailwind/react";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -37,14 +36,18 @@ const About = () => {
   return (
     <div id="about">
       <h1 className="text-center font-bold mt-20 text-4xl">About Me</h1>
-      <div className="flex mt-10 justify-center items-center gap-10">
+      <div className="md:flex  mt-10 justify-center items-center gap-10">
         <div className="w-[350px]">
-          <img className="rounded" src="/public/aa-removebg-preview.png" alt="" />
+          <img
+            className="rounded"
+            src="/public/aa-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div className="w-1/2">
-          <h1 className="text-3xl font-bold">I'm Ariful Islam</h1>
-          <h3 className="text-xl text-[#f8024d] ">MERN Stack Developer</h3>
-          <p className=" text-gray-800 font-semibold mt-2 text-[17px]">
+        <div className="md:w-1/2 mt-10 md:mt-0">
+          <h1 className="text-3xl font-bold text-center md:text-left">I'm Ariful Islam</h1>
+          <h3 className="text-xl md:text-left text-[#f8024d] text-center">MERN Stack Developer</h3>
+          <p className="text-gray-800 font-semibold mt-2 text-[17px]">
             Hi, Ariful Islam here, a Front-End Developer skilled in React.js,
             Next.js, Node.js, Express.js, and MongoDB. My mission to transform
             into a seasoned Software Engineer. Enthusiastic about coding and
@@ -109,10 +112,12 @@ const About = () => {
             </Tab.Group>
           </div>
 
-          <a href="https://www.linkedin.com/in/hellomrariful/" className="bg-[#f8024d] text-[16px] block w-full text-center rounded-lg py-3 text-white px-2">
-  See LinkedIn
-</a>
-
+          <a
+            href="https://www.linkedin.com/in/hellomrariful/"
+            className="bg-[#f8024d] text-[16px] block w-full text-center rounded-lg py-3 text-white px-2"
+          >
+            See LinkedIn
+          </a>
         </div>
       </div>
     </div>
