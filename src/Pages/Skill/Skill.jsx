@@ -1,7 +1,7 @@
 const Skill = () => {
   return (
-    <div>
-      <h1 className=" text-center text-4xl mt-10 mb-10">My Skill</h1>
+    <div id="skill">
+      <h1 className=" text-center text-4xl mt-16 mb-10 font-bold">My Skill</h1>
       <div className="grid grid-cols-2 gap-10">
         <div>
           <div>

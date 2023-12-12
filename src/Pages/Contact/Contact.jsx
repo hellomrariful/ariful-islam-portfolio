@@ -2,14 +2,13 @@ import { Textarea } from "@material-tailwind/react";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact" className="mt-20 mb-6">
+      <h1 className="text-center font-bold text-4xl mb-4">Get In Touch</h1>
       <section className="py-6 dark:bg-gray-800 dark:text-gray-50" id="contact">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">
-            <h1 className="text-4xl font-bold">Get in touch</h1>
-            <p className="pt-2 pb-4">
-              Fill in the form to start a conversation
-            </p>
+            <h1 className="text-2xl font-bold">Let's discuss your project</h1>
+            <p className="pt-2 pb-4"></p>
             <div className="space-y-4">
               <p className="flex items-center">
                 <svg
@@ -52,7 +51,7 @@ const Contact = () => {
             </div>
           </div>
           <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
-            <h1>Message Me Here</h1>
+            <h1 className="text-2xl font-bold">Message Me Here</h1>
             <label className="block">
               <span className="mb-1">Your name</span>
               <input
@@ -70,14 +69,10 @@ const Contact = () => {
               />
             </label>
             <div className="w-96">
-              <Textarea className="border-4" label="Message" />
+              <h1>Message</h1>
+              <Textarea className="border-4" placeholder="Write Your Query" />
             </div>
-            <button
-              type="button"
-              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri dark:bg-violet-400 dark:text-gray-900 focus:ri hover:ri bg-gray-800 text-white"
-            >
-              Submit
-            </button>
+            <input  className="bg-[#f8024d] text-[16px] block w-full text-center rounded-lg py-3 text-white px-2" type="submit" value="Seen Message" />
           </form>
         </div>
       </section>
