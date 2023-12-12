@@ -38,16 +38,16 @@ const About = () => {
       <h1 className="text-center font-bold mt-20 text-4xl">About Me</h1>
       <div className="md:flex  mt-10 justify-center items-center gap-10">
         <div className="w-[350px]">
-          <img
-            className="rounded"
-            src="aa-removebg-preview.png"
-            alt=""
-          />
+          <img className="rounded" src="/public/aa.jpeg" alt="" />
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0">
-          <h1 className="text-3xl font-bold text-center md:text-left">I'm Ariful Islam</h1>
-          <h3 className="text-xl md:text-left text-[#f8024d] text-center">MERN Stack Developer</h3>
-          <p className="text-gray-800 font-semibold mt-2 text-[17px]">
+          <h1 className="text-3xl font-bold text-center md:text-left">
+            I'm Ariful Islam
+          </h1>
+          <h3 className="text-xl text-[#f8024d] text-center md:text-left">
+            MERN Stack Developer
+          </h3>
+          <p className=" text-gray-800 font-semibold mt-2 text-[17px]">
             Hi, Ariful Islam here, a Front-End Developer skilled in React.js,
             Next.js, Node.js, Express.js, and MongoDB. My mission to transform
             into a seasoned Software Engineer. Enthusiastic about coding and
