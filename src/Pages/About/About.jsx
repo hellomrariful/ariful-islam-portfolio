@@ -38,7 +38,7 @@ const About = () => {
       <h1 className="text-center font-bold mt-20 text-4xl">About Me</h1>
       <div className="md:flex  mt-10 justify-center items-center gap-10">
         <div className="w-[350px]">
-          <img className="rounded" src="/public/aa.jpeg" alt="" />
+          <img className="rounded" src="aa.jpeg" alt="" />
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0">
           <h1 className="text-3xl font-bold text-center md:text-left">
