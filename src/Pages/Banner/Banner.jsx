@@ -25,7 +25,7 @@ const Banner = () => {
         <button className="mt-5">
           <a
             className="bg-[#f8024d] py-3 px-2 rounded  text-white"
-            href="Personal Branding.pdf"
+            href="Ariful-Islam-Resume.pdf"
             download
           >
             Download Resume

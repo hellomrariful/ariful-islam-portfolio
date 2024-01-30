@@ -9,14 +9,9 @@ const About = () => {
   let [categories] = useState({
     Experience: [
       {
-        id: 1,
-        title: "Meta audience network - Anolipi",
-        date: "2020-2023",
-      },
-      {
         id: 2,
-        title: "Lead the Dev Team - Anolipi",
-        date: "2020-2023",
+        title: "Social Media Manager - Anolipi",
+        date: "2021-2023",
       },
     ],
     Education: [
@@ -24,11 +19,6 @@ const About = () => {
         id: 1,
         title: "Diploma in Electronic Engineer - Sylhet Polytechnic Institute",
         date: "2021-2024",
-      },
-      {
-        id: 2,
-        title: "SSC - Bogla Rusmat Ali Ram Shundor High School & Collage",
-        date: "2019-2020",
       },
     ],
   });
@@ -41,12 +31,13 @@ const About = () => {
           <img className="rounded" src="aa.jpeg" alt="" />
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0">
-          <h1 className="text-3xl font-bold text-center md:text-left">
+          <h1 className="text-3xl font-bold text-center md:text-left ">
             I'm Ariful Islam
           </h1>
           <h3 className="text-xl text-[#f8024d] text-center md:text-left">
             MERN Stack Developer
           </h3>
+
           <p className=" text-gray-800 font-semibold mt-2 text-[17px]">
             Hi, Ariful Islam here, a Front-End Developer skilled in React.js,
             Next.js, Node.js, Express.js, and MongoDB. My mission to transform
