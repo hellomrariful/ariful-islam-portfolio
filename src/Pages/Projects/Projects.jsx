@@ -62,6 +62,56 @@ const Projects = () => {
         </CardBody>
       </Card>
 
+      <Card className="w-full md:flex-row rounded-lg bg-slate-200 border-4 border-red-500">
+        <CardHeader
+          shadow={false}
+          floated={false}
+          className="m-0 md:w-1/2 shrink-0 rounded-r-none"
+        >
+          <img
+            src="/public/all-devices-white.png"
+            alt="card-image"
+            className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
+          object-cover"
+          />
+        </CardHeader>
+        <CardBody className="py-10 px-10">
+          <Typography variant="h4" color="blue-gray" className="mb-2 text-2xl">
+            📰 Anolipi | A Online News Portal
+          </Typography>
+          <Typography color="gray" className="mb-3 font-normal">
+            Anolipi is a Online public demand news portal. In this projects,
+            User can publish his/her article. Also user can read premium content
+            by subscribe. User can pay by stripe payment method. Anolipi has 3
+            role of user, 1.Admin, 2.Normal User, 3.Premium User. Anolipi is
+            built in a way that has all the features of a standard online news
+            site.
+          </Typography>
+          <div className=" text-blue-800">
+            <a
+              className="border-b-2 border-[#f8024d] mr-1"
+              href="https://anolipi.web.app/"
+            >
+              Anolipi-Live
+            </a>
+            |
+            <a
+              className="border-b-2 border-[#f8024d] mx-1"
+              href="https://github.com/hellomrariful/Anolipi-Client"
+            >
+              Anolipi-Client
+            </a>
+            |
+            <a
+              className="border-b-2 border-[#f8024d] ml-1"
+              href="https://github.com/hellomrariful/Anolipi-Server"
+            >
+              Anolipi-Server
+            </a>
+          </div>
+        </CardBody>
+      </Card>
+
       <Card className="w-full md:flex-row rounded-lg bg-slate-200 border-4 border-red-500 my-10">
         <CardHeader
           shadow={false}
