@@ -19,7 +19,7 @@ const Projects = () => {
           className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
-            src="3-devices-white.png"
+            src="/public/Screenshot.png"
             alt="card-image"
             className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
@@ -27,36 +27,37 @@ const Projects = () => {
         </CardHeader>
         <CardBody className="py-10 px-10">
           <Typography variant="h4" color="blue-gray" className="mb-2 text-2xl">
-            📰 Anolipi | A Online News Portal
+            📈 NexTrade | A Online Trading Platform (Team Project).
           </Typography>
           <Typography color="gray" className="mb-3 font-normal">
-            Anolipi is a Online public demand news portal. In this projects,
-            User can publish his/her article. Also user can read premium content
-            by subscribe. User can pay by stripe payment method. Anolipi has 3
-            role of user, 1.Admin, 2.Normal User, 3.Premium User. Anolipi is
-            built in a way that has all the features of a standard online news
-            site.
+            NexTrade offers seamless cryptocurrency trading, including buying,
+            selling, and exchanging, coupled with comprehensive educational
+            resources for traders to enhance their knowledge and skills. Also,
+            customizable portfolio, market, watchlist, history, and wallet for
+            seamless deposit and withdrawal of funds using the Stripe payment
+            gateway and many more... Admin can see the analytics of NexTrade and
+            also manage the user, crypto coin & academy.
           </Typography>
           <div className=" text-blue-800">
             <a
               className="border-b-2 border-[#f8024d] mr-1"
-              href="https://anolipi.web.app/"
+              href="https://nextrade-front-end.vercel.app/"
             >
-              Anolipi-Live
+              NexTrade-Live
             </a>
             |
             <a
               className="border-b-2 border-[#f8024d] mx-1"
-              href="https://github.com/hellomrariful/Anolipi-Client"
+              href="https://github.com/diptomahin/nextrade"
             >
-              Anolipi-Client
+              NexTrade-Client
             </a>
             |
             <a
               className="border-b-2 border-[#f8024d] ml-1"
-              href="https://github.com/hellomrariful/Anolipi-Server"
+              href="https://github.com/diptomahin/nexTrade-server"
             >
-              Anolipi-Server
+              NexTrade-Server
             </a>
           </div>
         </CardBody>
