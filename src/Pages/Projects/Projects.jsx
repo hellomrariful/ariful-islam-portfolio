@@ -19,7 +19,7 @@ const Projects = () => {
           className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
-            src="/public/Screenshot.png"
+            src="Screenshot.png"
             alt="card-image"
             className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
@@ -70,7 +70,7 @@ const Projects = () => {
           className="m-0 md:w-1/2 shrink-0 rounded-r-none"
         >
           <img
-            src="/public/all-devices-white.png"
+            src="all-devices-white.png"
             alt="card-image"
             className="h-full lg:h-72 md:h-60 md:mt-32  lg:mt-10 my-5 w-full rounded-l-lg
           object-cover"
